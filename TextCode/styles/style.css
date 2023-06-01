@@ -1,0 +1,41 @@
+html {
+    background-color: aquamarine;
+    font-size: 10px; 
+    /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
+    font-family: "Open Sans", sans-serif; 
+    /* 这应该是你从 Google Fonts 得到的其余输出。 */
+  }
+h1{
+    font-size:60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+    /* 水平偏移量   垂直偏移量      模糊半径     阴影的基色 */
+}
+
+p,
+li{
+    font-size:16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+body{
+    width: 600px;
+    /* 强制页面永远保持600 像素宽 */
+    margin: 0 auto;
+    /* 外边距 */
+    background-color: #ff9500;
+    /* 元素内容和内边距底下的颜色 */
+    padding:0 20px 20px 20px;
+    /* 内边距 上、右、下、左的顺序排列*/
+    border: 5px solid black;
+    /* 边框 */
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+}
